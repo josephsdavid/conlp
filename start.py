@@ -9,8 +9,10 @@ from cotools import search, text, abstract, texts, abstracts
 
 # redownload every update of cotools
 # make sure your version is up to date!!!
-# we are on 0.1.2
-downloaded = True
+# we are on 0.1.5
+# there may be bugs in this so ping me or make a PR if this does anything
+# unexpected, and always update cotools (pip install cord-19-tools)
+downloaded = False  # set back to true because this takes a hot minute
 if not downloaded:
     cotools.download("data")
 
